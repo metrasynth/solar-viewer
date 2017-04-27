@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --config config/webpack.config.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -18,7 +20,8 @@
     "typescript": "^2.2.2",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.3",
-    "webpack-notifier": "^1.5.0"
+    "webpack-notifier": "^1.5.0",
+    "@kadira/storybook": "^2.21.0"
   },
   "dependencies": {
     "react": "^15.5.4",
